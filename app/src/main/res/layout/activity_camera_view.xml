@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.min.imagewrapper.view.CameraView
+        android:id="@+id/cv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.min.imagewrapper.view.FocusImageView
+        android:id="@+id/fiv_focus"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:focus_fail_id="@drawable/focus_focus_failed"
+        app:focus_focusing_id="@drawable/focus_focusing"
+        app:focus_success_id="@drawable/focus_focused"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_flash"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/camera_flash_off"/>
+
+    <ImageView
+        android:id="@+id/iv_change"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/camera_change"/>
+
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/camera_normal"/>
+
+</RelativeLayout>

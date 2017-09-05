@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Album</string>
+    <string name="image_selector">图片选择</string>
+    <string name="all_image">全部图片</string>
+    <string name="folder_name">(%1$s)%2$s</string>
+    <string name="sure">确认</string>
+    <string name="sure_num">确认(%1$s/%2$s)</string>
+    <string name="has_arrive_max_need_count">最多选择%s张图片</string>
+    <string name="has_image_no_select">最少选择%s张图片</string>
+    <string name="camera_fail">拍照失败</string>
+    <string name="this_album_is_empty">该相册为空！</string>
+    <string name="album_dialog_permission_failed">权限获取失败</string>
+    <string name="album_permission_storage_failed_hint">获取读取相册权限失败，请在设置中授权后再使用</string>
+    <string name="album_permission_camera_failed_hint">获取相机权限失败，请在设置中授权后再使用</string>
+    <string name="album_dialog_sure">好的</string>
+</resources>
